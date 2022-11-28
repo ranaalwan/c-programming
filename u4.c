@@ -16,47 +16,6 @@ output :
 
 */
 
-// int main( int argc,char **argv){
-// int n,i;
-// char *tab[]="\t\t";
-// n=(int )strtol(argv[1],'\0',10);
-
-// for ( i = 0; i < n; i++){
-//     printf("%s" )
-// }
-
-// // }
-
-
-
-
-// #include <stdio.h>
-// long fun(int y)
-// {
-//     int n;
-//     long result = 1;
-
-//     for( n = 1 ; n <= y ; n++ )
-//         result = result*n;
-
-//     return ( result );
-// }
-// int main()
-// {
-//     int x, y, n;
-//     printf("Input the number of rows in Pascal's triangle: ");
-//     scanf("%d",&y);
-//     for ( x = 0 ; x < y ; x++ )
-//     {
-//         for ( n = 0 ; n <= ( y - x - 2 ) ; n++ )
-//             printf(" ");
-//         for( n = 0 ;n <= x ; n++ )
-//             printf("%ld ",fun(x)/(fun(n)*fun(x-n)));
-
-//         printf("\n");
-//     }
-//     return 0;
-// }
 
 #include<stdio.h>
 int main()
